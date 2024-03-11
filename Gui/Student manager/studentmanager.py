@@ -23,8 +23,8 @@ def show_grade():
 csc_2 = []
 
 csc_2.append(Student("Aaran", "Excellence"))
-csc_2.append(Student("Hamish", "Meritorious"))
-csc_2.append(Student("Gabby", "Achievement"))
+csc_2.append(Student("Hamish", "Merit"))
+csc_2.append(Student("Gabby", "Achieved"))
 
 window = Tk()
 window.geometry("500x500")
