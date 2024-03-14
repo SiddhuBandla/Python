@@ -67,7 +67,7 @@ class QuizStarter:
         self.entry_box.grid(row=2, pady=20)
 
         #Continue button
-        self.continue_button = Button (self.quiz_frame, text ="Continue", bg="pink", command=self.name_collection)
+        self.continue_button = Button (self.quiz_frame, text ="Continue", bg="Orange", command=self.name_collection)
         self.continue_button.grid(row=3,pady=20)
 
 
@@ -128,7 +128,7 @@ class Quiz:
         self.rb4.config(text=questions_answers[qnum][4])
 
     #This is the method that would get invoked with confirm answer button is clicked, to take care of progress
-    def tes_progress(self):
+    def test_progress(self):
         global score
 
 #Starting Point of the Page #
